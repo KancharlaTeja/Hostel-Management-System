@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+  margin: 20px auto; /* Center the element horizontally */
+  color: rgb(255, 47, 0);
+  padding: 10px 20px; /* Padding inside each box */
+  background-color: #ffffff; /* Background color for the boxes */
+  border: 1px solid #ddd; /* Border for the boxes */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  display: block; /* Ensure the element behaves as a block element */
+  width: fit-content; /* Adjust the width to fit the content */
+}
+
+

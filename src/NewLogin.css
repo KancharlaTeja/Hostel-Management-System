@@ -1,0 +1,77 @@
+/* NewLogin.css */
+
+/* Container for the entire form */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Styling for the form container */
+.form-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form group styling */
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Minimal space between form groups */
+}
+
+/* Label styling */
+.form-group label {
+  margin-right: 10px; /* Adjust space between label and input */
+  font-weight: bold;
+  text-align: right;
+  width: 150px; /* Adjust width as needed */
+}
+
+/* Input styling */
+.form-group input,
+.form-group select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0; /* Remove default margin */
+}
+
+/* Button container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Button styling */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #45a049;
+}

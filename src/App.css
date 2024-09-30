@@ -1,0 +1,85 @@
+
+  /* Navigation styles */
+  nav {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for better visibility */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  nav li {
+    display: inline-block; /* Display each list item as a block */
+    margin: 0 10px; /* Spacing between boxes */
+    padding: 10px 20px; /* Padding inside each box */
+    background-color: #ffffff; /* Background color for the boxes */
+    border: 1px solid #ddd; /* Border for the boxes */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Background for the table */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Ensure no overflow */
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  .heading-container {
+    text-align: center; /* Center text horizontally */
+    margin-top: 20px; /* Space above the heading */
+    color:red;
+  }
+  
